@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "electron-packager . v1.3.1 --platform=win32 --arch=x64",
+    "build": "electron-packager . v1.3.2 --platform=win32 --arch=x64",
     "dev": "electron ."
   },
   "keywords": [],
