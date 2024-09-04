@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: block;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+
+  #content {
+    display: block;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  #content a {  
+    display: inline-flex;
+    border: 1px solid #f4f4f4;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    width: 45%;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  span {
+    width: 95%;
+  }
+
+  b {
+    margin-top: 10px;
+    display: block;
+  }

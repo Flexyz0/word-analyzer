@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'" />
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
+    <body>
+        <input id="fileInput" type="file" accept=".pdf">
+        <button onclick="readFile()">Dosyayı Tara</button>
+        <a>
+            <input type="checkbox" id="numeric">
+            Sayılar sayılsın mı?
+        </a>
+        <button id="saveButton" onclick="saveAsExcel()" disabled="true">Excel Dosyasına Kaydet</button>
+        <b id="alertBox"></b>
+        <div id="content"></div>
+        <script src="../js/index.js" async defer></script>
+    </body>
+</html>
